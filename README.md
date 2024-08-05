@@ -1,6 +1,6 @@
 # People-of-GOT
 
-these are the features to Peoples of GOT app
+these are the features to People of GOT app
 
 Filter by house
 
