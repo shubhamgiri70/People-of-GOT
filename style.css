@@ -1,0 +1,220 @@
+/* Box sizing */
+html {
+  box-sizing: border-box;
+  height: 100%; /* Ensure html takes full height */
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+/* Remove default margins and paddings */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+dl,
+dd,
+figure,
+pre {
+  margin: 0;
+  padding: 0;
+}
+
+/* Remove list styles */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Remove default spacing for paragraphs */
+p {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+/* Remove default spacing for headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+/* Remove default spacing for lists */
+ul,
+ol,
+dl {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+/* Remove default styling for form elements */
+input,
+textarea,
+button,
+select {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  background: none;
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+}
+
+/* Remove default styling for anchor tags */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Remove default styling for images */
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Remove default styling for tables */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Custom styles */
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+/* header part */
+header {
+  text-align: center;
+  background-color: sienna;
+}
+
+h1 {
+  padding: 2rem;
+}
+
+#input {
+  border: 1px solid black;
+  padding: 0.5rem;
+  margin-bottom: 2rem;
+  width: 210px;
+  background-color: rgb(206, 225, 206);
+}
+
+/* main section */
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.tags {
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.tags li {
+  padding: 0.5rem;
+  margin-left: 1.3rem;
+  background-color: rgb(183, 114, 58);
+  color: rgb(210, 221, 210);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.tags li:hover {
+  background-color: rgb(213, 149, 97);
+  border: 0.5px solid black;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0.4, 0.4);
+}
+
+.cards {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  width: 400px;
+  padding: 1.5rem;
+  margin: 1.5rem;
+  text-align: center;
+  background-color: #b4e1ef;
+  border-radius: 6px;
+}
+
+.card:hover {
+  box-shadow: 0px 8px 20px rgba(0, 0, 0.3, 0.6);
+}
+
+img {
+  border-radius: 50%;
+  margin: 1rem auto;
+}
+
+h2 {
+  margin-bottom: 1rem;
+}
+
+button {
+  margin-top: 1rem;
+  cursor: pointer;
+  background-color: teal;
+  padding: 0.4rem;
+  color: aliceblue;
+  border-radius: 3px;
+}
+
+button:hover {
+  background-color: rgb(46, 168, 156);
+  border: 0.5px solid black;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0.6, 0.5);
+}
+
+.active {
+  background-color: rgb(213, 149, 97);
+  border: 0.5px solid black;
+}
+
+/* footer */
+footer {
+  background-color: sienna;
+  padding: 2rem;
+  text-align: center;
+  margin-top: auto;
+}
+
+span {
+  font-size: 1.2rem;
+  color: rgb(206, 225, 206);
+}
